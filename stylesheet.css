@@ -1,0 +1,83 @@
+@charset"utf-8";
+
+header{
+      background-color:rgba(255, 0, 0,.5);
+      position:fixed;
+     
+}
+
+.header div,a{
+      display:inline-block;
+      background-color: yellow;
+      margin:5px;
+      font-size:20px;
+      color:brown;
+}
+
+.header a{
+      text-decoration: none;
+}
+
+.header a:hover{
+      background-color:gray;
+}
+
+body{
+      background-image:url("https://t4.ftcdn.net/jpg/05/39/36/43/360_F_539364309_sXmfneabCkO8jxR91tPiih2CESsZwbF7.jpg")
+}
+h1{
+      padding-top:70px;
+      font-family: "Yuji Syuku", serif;
+            font-weight: 400;
+            font-style: normal;
+          
+}
+
+h1:hover{
+      color:red;
+}
+p:hover{
+      color:blue;
+}
+.title h1,p{
+      text-align: center;
+}
+
+.body{
+      height:500px;
+      display:flex;
+      flex-direction: row; 
+      background-color:rgba(255, 255, 255,.8);
+      
+}
+
+.image-style{
+      width:400px;
+      height:400px;
+      flex-grow:1
+      
+}
+
+.eto{
+      width:400px;
+      height:400px;
+      flex-grow:1
+}
+
+.explain{
+      width:900px;
+      margin:10px auto;
+
+}
+
+footer{
+      background-color:rgba(255, 0, 0,.5);
+}
+
+.footer div{
+      display:inline-block;
+      background-color: yellow;
+      margin:5px;
+      font-size:20px;
+      color:brown;
+}
